@@ -1,0 +1,74 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-blue: #0062cd;
+
+    --color-red: #e5221e;
+
+    --color-pink: #8E017B;
+
+    --color-grey-light: #EFEFEF;
+
+    --color-green-light-1: #87CA9E;
+    --color-green-light-2: #58A840;
+
+}
+/* 
+* {
+    padding: 0;
+    margin: 0;
+} */
+
+/* *,
+*::before,
+*::after {
+    box-sizing: inherit; 
+}
+
+html {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: var(--color-grey-light);
+}
+
+.header-navbar {
+    background-color: var(--color-pink);
+}
+
+.header-info__primary-heading {
+    color: var(--color-blue);
+    font-weight: 900;
+}
+
+.header-info__secondary-heading {
+    color: var(--color-red);
+}
+
+.idol-card {
+    box-shadow: 0rem .1rem .3rem rgba(0,0,0, .2);
+    flex: 0 0 32%; 
+}
+    .idol-card__box-photo {
+        flex: 0 0 40%;
+    }
+
+        .idol-card__photo {
+            height: 7rem;
+            width: 7rem;
+        }
+
+    .idol-card__box-text {
+        flex: 1;
+    }
+
+        .idol-card__name {
+            font-weight: 400;
+            font-size: 1.7rem;
+        }
+
+.pointer {
+    cursor: pointer;
+}
